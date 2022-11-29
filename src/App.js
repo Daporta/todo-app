@@ -53,7 +53,7 @@ function App() {
 
   useEffect(() => {
     let stringifySortedList = JSON.stringify(sortedList)
-    localStorage.setItem('sortedList', stringifySortedList || list)
+    localStorage.setItem('sortedList', stringifySortedList)
   }, [sortedList])
 
   const [theme, setTheme] = useState(localStorage.getItem('theme') ||'dark');
