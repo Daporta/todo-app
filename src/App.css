@@ -5,10 +5,6 @@
   font-size: 18px;
 }
 
-body {
-  height: 100vh;
-}
-
 :root {
   --BrightBlue: hsl(220, 98%, 61%);
   --CheckBackground: hsl(192, 100%, 67%), hsl(280, 87%, 65%);
@@ -52,10 +48,12 @@ body {
 
 .App-header-light {
   background: url('./images/bg-desktop-light.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .App-header-dark {
   background: url('./images/bg-desktop-dark.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .header-container {
